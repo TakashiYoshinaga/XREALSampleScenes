@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44407967, g: 0.49333012, b: 0.57239825, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -350,8 +350,8 @@ MonoBehaviour:
   controller: {fileID: 1756634621}
   base_parent: {fileID: 0}
   keepTiltAngle: 1
-  moveSpee: 0.08
-  rotSPeed: -20
+  moveSpeed: 0.1
+  rotSpeed: -30
 --- !u!65 &919068976
 BoxCollider:
   m_ObjectHideFlags: 0

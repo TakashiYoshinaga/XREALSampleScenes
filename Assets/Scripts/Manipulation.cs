@@ -16,8 +16,8 @@ public class Manipulation : MonoBehaviour,IPointerDownHandler,IPointerUpHandler
     //マニピュレーション中にデフォルトの傾きをキープする場合はtrue (要リファクタリング)
     public bool keepTiltAngle = true;
     //前後移動と左右回転の速度
-    public float moveSpeed = 0.08f;
-    public float rotSpeed = -20.0f;
+    public float moveSpeed = 0.1f;
+    public float rotSpeed = -30.0f;
 
     public void OnPointerDown(PointerEventData eventData)
     {
@@ -49,6 +49,7 @@ public class Manipulation : MonoBehaviour,IPointerDownHandler,IPointerUpHandler
         if (keepTiltAngle)
         {
             manipulationPos = new GameObject().transform;
+            manipulationPos.parent = base_parent;
             manipulationPos.position = transform.position;
         }
     }
