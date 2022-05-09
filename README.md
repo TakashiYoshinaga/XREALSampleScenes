@@ -7,3 +7,6 @@ Primitive sapmle scenes for Nreal Light and Air<br>
 NRSDK 1.8.0 <br>
 Please download and install NRSDK by yourself.<br>
 https://developer.nreal.ai/download
+
+## Notice
+This sample project does not include the NRSDK, so errors will be displayed at first startup, but please ignore them.
