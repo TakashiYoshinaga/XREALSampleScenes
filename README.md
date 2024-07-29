@@ -4,7 +4,7 @@ Primitive sapmle scenes for Nreal Light and Air<br>
 [![](https://img.youtube.com/vi/uyxVuTEpdJw/0.jpg)](https://www.youtube.com/watch?v=uyxVuTEpdJw)
 
 ## Dependency
-NRSDK 2.2.0 <br>
+NRSDK 2.2.x <br>
 Please download and install NRSDK by yourself.<br>
 [https://developer.nreal.ai/download](https://youtu.be/uyxVuTEpdJw?si=v0kF11CDsHaPoN8Q&t=68)
 
